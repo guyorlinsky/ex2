@@ -9,10 +9,8 @@ export default function Footer() {
           This is some example footer content.
         </div>
         <div className="center">
-          <AuthAction />
         </div>
         <div className="center text-sm">
-          {COURSE_CREDITS}
         </div>
       </div>
     </footer>

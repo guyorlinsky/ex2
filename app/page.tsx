@@ -5,8 +5,8 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <WebsiteScreen>
-      <div className="grid">
+      
+      <div className="grid"  style={{ backgroundColor: 'yellow' }}>
         <div className="center padding-2 text-xl">
           <span>
             {COURSE_WELCOME_TEXT}
@@ -14,8 +14,8 @@ export default function Home() {
         </div>
         <div className="center padding-2">
           <Image
-            src="/huji.png"
-            alt="HUJI Logo"
+            src="/us_flag_and_statue_of_liberty.jpg"
+            alt="us flag and satue of liberty"
             width={320}
             height={100}
             priority
@@ -23,8 +23,8 @@ export default function Home() {
         </div>
         <div className="center padding-2">
           <Image
-            src="/bezalel.png"
-            alt="Bezalel Logo"
+            src="/brown_bear.jpeg"
+            alt="brown bear photo"
             className="item"
             width={320}
             height={100}
@@ -33,22 +33,31 @@ export default function Home() {
         </div>
         <div>
           <h1 className="center text-xxxl">
-            Lorem Ipsum
+            
+            when I grow up I want to . . .
+    
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus sit amet nunc nec vehicula. Fusce ornare nec nulla non imperdiet. Fusce vel sodales justo. Sed efficitur arcu lorem, at iaculis odio ultricies et. Duis rutrum urna nec elit bibendum, sed hendrerit nulla posuere. Vestibulum vestibulum, ante non tincidunt posuere, dui arcu lacinia nisl, nec rhoncus massa arcu ac ipsum. Nam congue interdum tortor, eu dignissim massa scelerisque vitae. Sed ultricies bibendum congue. Praesent non magna id ligula maximus luctus. Donec vitae nibh quis neque luctus sagittis et eget nunc. Aliquam id ullamcorper lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur tempor quis dolor a lacinia.
-          </p>
+      
           <ul>
-            <li>Aliquam maximus tellus sed lacus venenatis, ac cursus eros mollis.</li>
-            <li>In id ante sed sem pharetra molestie et vitae arcu.</li>
-            <li>Cras pharetra turpis at pretium elementum.</li>
-            <li>Donec ultrices felis vel lectus auctor iaculis.</li>
+            <li><em>be the presidant of the united states.</em></li>
+            <li><strong>master all elemnts.</strong></li>
+            <li><em>build a house.</em></li>
+            <li><strong>be a billionair.</strong></li>
           </ul>
-          <p>
-            See our <Link target="_blank" href="https://github.com/digital-product-jam-2024/course/tree/main/reference">Reference Material</Link> on <Link target="_blank" href="https://github.com/digital-product-jam-2024/course/blob/main/reference/html.md">HTML</Link>, <Link target="_blank" href="https://github.com/digital-product-jam-2024/course/blob/main/reference/css.md">CSS</Link>, and <Link target="_blank" href="https://github.com/digital-product-jam-2024/course/blob/main/reference/javascript.md">JavaScript</Link>.
-          </p>
+
+          <div className="center padding-2">
+          <p>here is the wikipedia page of my role model</p>
+          </div>
+          
+          <div className="center padding-2">
+              <button id="moonButton">Press to go to the moon</button>
+              <iframe src="https://en.wikipedia.org/wiki/Donald_Trump"  height="200" width="900" title='here is my role model'></iframe>
+          </div>
+          <div className="center padding-2">
+          <iframe width="900" height="200" src="https://www.youtube.com/embed/aRGdDy18qfY?si=6eFEN0tcko0EyQ-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+
         </div>
       </div>
-    </WebsiteScreen>
   )
 }

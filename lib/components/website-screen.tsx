@@ -10,14 +10,12 @@ interface Props {
 
 export default function WebsiteScreen({ direction = 'ltr', children }: Props) {
   return (
-    <div dir={direction}>
-      <Navbar />
+    <div dir={direction} style={{ backgroundColor: 'yellow' }}>
       <div id="main">
         <div className="container">
           {children}
         </div>
       </div>
-      <Footer />
     </div>
   )
 }
