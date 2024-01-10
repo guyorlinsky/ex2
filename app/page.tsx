@@ -54,7 +54,6 @@ export default function Home() {
               <iframe src="https://en.wikipedia.org/wiki/Donald_Trump"  height="200" width="900" title='here is my role model'></iframe>
           </div>
           <div className="center padding-2">
-          <iframe width="900" height="200" src="https://www.youtube.com/embed/aRGdDy18qfY?si=6eFEN0tcko0EyQ-D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
           </div>
 
         </div>
